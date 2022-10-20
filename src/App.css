@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body{
+  margin:0;
+  background-color: #23252C;
+  color: #FFFFFF;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height:100vh;
+  font-family: 'Inter', sans-serif;
+
+}
+
+#root {
+  margin: auto;
+  background-color: #1A1B21;
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 300px;
+}
+
+.profile-pic {
+  max-width:100%;
+  max-height:100%;
+}
+
+.info--container{
+  text-align: center;
+}
+
+.info--container > h1 {
+  font-size: 25px;
+  margin-bottom: -10px;
+}
+
+.info--container > h4 {
+  font-size: 13px;
+  font-weight: 400;
+  color: #F3BF99;
+  margin-bottom: 5px;
+}
+
+.info--container > a {
+  font-size: 10px;
+  line-height: 150%;
+  color: #F5F5F5;
+}
+
+.info--buttons {
+  width: 100%;
+  justify-content: center;
+  margin-top: 20px;
+  display: flex;
+  gap: 16px;
+}
+
+.info--buttons > a {
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 16px;
+  font-weight: 600;
+  padding: 9px 13px 9px 13px;
+  width: 40%;
+}
+
+.info--buttons > a > span{
+  margin-left: 1em;
+}
+
+.email-btn{
+  background-color: #FFFFFF;
+  color: #1E1F26;
+  border: solid 1px #D1D5DB;
+}
+
+.linkedin-btn{
+  background-color: #5093E2;
+  color: #FFFFFF;
+}
+
+.about--container{
+  margin:22px;
+}
+
+.about--container > h2{
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: -8px;
+}
+
+.about--container > p{
+  font-size: 10px;
+}
+
+.interests--container{
+  margin:22px;
+}
+
+.interests--container > h2{
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: -8px;
+}
+
+.interests--container >  p{
+  font-size: 10px;
+}
+
+.footer--container{
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin:0;
+  background-color: #161619;
+}
+
+.footer--container > a {
+  color: #918E9B;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 20px 0;
+}
